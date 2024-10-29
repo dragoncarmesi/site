@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00796b; /* Verde oscuro para el título */
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        /* Menú */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #004d40; /* Verde más oscuro */
+        }
+
+        /* Contenedor de los videos */
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .video-container {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 460px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 260px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú desplegable -->
+    <nav>
+        <ul>
+           <li><a href="Index.html">Inicio</a></li>
+           <li><a href="Entrevistas.html">Entrevistas</a></li>
+           <li><a href="Retos.html">Retos</a></li>
+           <li><a href="Aportaciones.php">Aportaciones Adicionales sobre casos</a></li>
+           <li><a href="mailto:jose.varela262731@potro.itson.edu.mx?subject=Sugerencias">Enviar sugerencias</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Casos</h1>
+        <p>En este apartado de casos se mostrarán diferentes tipos de escenarios en videos y textos informativos sobre el ciclo de vida del desarrollo de software.</p>
+        
+        <div class="videos">
+            <div class="video-container">
+                <h3>Video 1</h3>
+                <p>Este video habla sobre cómo afecta el ciclo de vida de desarrollo de software en diferentes tipos de escenarios.</p>
+                <iframe src="https://www.youtube.com/embed/6FsmLwUlTV4?si=YL3H4xeHwvYDaYMP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="video-container">
+                <h3>Video 2</h3>
+                <p>Este video detalla los procesos clave del ciclo de vida en el desarrollo de software y su impacto.</p>
+                <iframe src="https://www.youtube.com/embed/V05gm73c5ds?si=VopFCFlxWCPWjnmd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

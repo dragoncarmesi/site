@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entrevistas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        /* Menú */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #004d40; /* Verde más oscuro */
+        }
+
+        /* Contenedor de los videos */
+        .videos {
+            display: block; /* Cambiar de flex a block para apilar los videos */
+            max-width: 360px;
+            margin: 0 auto; /* Centrar el contenedor */
+        }
+
+        .video-container {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Separación entre videos */
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú desplegable -->
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Casos.html">Casos</a></li>
+            <li><a href="Retos.html">Retos</a></li>
+            <li><a href="Aportaciones.php">Aportaciones Adicionales sobre casos</a></li>
+            <li><a href="mailto:jose.varela262731@potro.itson.edu.mx?subject=Sugerencias">Enviar sugerencias</a></li>
+        </ul>
+    </nav>
+
+    <h1>Entrevistas</h1>
+
+    <p>En este apartado de entrevistas se verán videos informativos para entender mejor el ciclo de vida de desarrollo en software.</p>
+
+    <div class="videos">
+        <div class="video-container">
+            <h3>Video 1</h3>
+            <p>Este video explica el ciclo de vida en software y sus componentes.</p>
+            <iframe src="https://www.youtube.com/embed/s5ABwHaN7as?si=goX_3LB8XFbZOFlM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="video-container">
+            <h3>Video 2</h3>
+            <p>Introducción a los procesos de desarrollo de software en la industria.</p>
+            <iframe src="https://www.youtube.com/embed/S2zk5gQGUCg?si=c2UbwTrQhmYM8F0M" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
